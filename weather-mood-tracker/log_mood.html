@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/log_mood.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log Mood</title>
+</head>
+<body>
+    <form id="moodForm" class="container">
+        <h1>Log Your Mood</h1>
+        <label for="mood">Mood:</label>
+        <select id="mood">
+            <option value="happy">Happy</option>
+            <option value="sad">Sad</option>
+            <option value="angry">Angry</option>
+            <option value="excited">Excited</option>
+        </select>
+        <label for="comments">Comments:</label>
+        <textarea id="comments" placeholder="Enter your comments"></textarea>
+        <button type="button" onclick="logMood()">Log Mood</button>
+    </form>
+
+    <script src="js/log_mood.js"></script>
+</body>
+</html>

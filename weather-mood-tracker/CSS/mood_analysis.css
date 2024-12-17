@@ -1,0 +1,12 @@
+@import url('main.css');
+
+#moodAnalysis {
+    font-size: 1.2em;
+    color: #333;
+    margin-top: 20px;
+}
+
+.log-entry {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
